@@ -1,0 +1,27 @@
+{
+  "recommendations": [
+    // Python Development
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "charliermarsh.ruff",
+
+    // Testing
+    "ms-python.debugpy",
+
+    // Configuration Files
+    "tamasfe.even-better-toml",
+    "mikestead.dotenv",
+
+    // Git
+    "eamodio.gitlens",
+
+    // Productivity
+    "usernamehw.errorlens"
+  ],
+  "unwantedRecommendations": [
+    // Avoid conflicts with Ruff
+    "ms-python.black-formatter",
+    "ms-python.isort",
+    "ms-python.flake8"
+  ]
+}
